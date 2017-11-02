@@ -1,0 +1,56 @@
+@import url(https://fonts.googleapis.com/css?family=Bungee+Shade);
+body {
+  max-width: 1440px;
+  margin: 0;
+  display: flex;
+  flex-direction: column; }
+
+h2 {
+  color: #000;
+  font-family: bungee shade, georgia;
+  text-align: center;
+  text-shadow: 0 0 2px #343436; }
+
+.img {
+  filter: brightness(1.1);
+  height: 150px;
+  width: 200px; }
+  .img:target {
+    height: 450px;
+    width: 500px;
+    margin-right: 2vw; }
+    .img:target + .close {
+      display: block; }
+    .img:target + .expand {
+      display: none; }
+
+.expand {
+  bottom: 125px;
+  margin-left: -32px;
+  margin-right: 16px;
+  pointer-events: none;
+  position: relative; }
+
+.close {
+  background-image: url(https://bit.ly/29QeT21);
+  background-repeat: no-repeat;
+  bottom: 418px;
+  display: none;
+  height: 32px;
+  left: 462px;
+  margin-top: -32px;
+  position: relative;
+  width: 32px; }
+
+.first-column {
+  display: flex;
+  flex-direction: column; }
+
+.second-column {
+  display: flex;
+  flex-direction: column; }
+
+#wrapper {
+  margin: auto;
+  padding: 10px;
+  display: flex; }
