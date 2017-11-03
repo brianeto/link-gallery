@@ -55,10 +55,30 @@ h2{
 .first-column {
   display: flex;
   flex-direction: column;
+
+  &-box-info {
+      position: absolute;
+      z-index: 1;
+      padding-top: 9vh;
+      padding-left: 1vw;
+      line-height: 3px;
+      &:target {
+        font-size: 10em;
+      }
+  }
 }
+
 .second-column {
   display: flex;
   flex-direction: column;
+
+  &-box-info {
+      position: absolute;
+      z-index: 1;
+      padding-top: 9vh;
+      padding-left: 1vw;
+      line-height: 3px;
+  }
 }
 #wrapper {
   margin: auto;

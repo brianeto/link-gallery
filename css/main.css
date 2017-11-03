@@ -45,10 +45,24 @@ h2 {
 .first-column {
   display: flex;
   flex-direction: column; }
+  .first-column-box-info {
+    position: absolute;
+    z-index: 1;
+    padding-top: 9vh;
+    padding-left: 1vw;
+    line-height: 3px; }
+    .first-column-box-info:target {
+      font-size: 10em; }
 
 .second-column {
   display: flex;
   flex-direction: column; }
+  .second-column-box-info {
+    position: absolute;
+    z-index: 1;
+    padding-top: 9vh;
+    padding-left: 1vw;
+    line-height: 3px; }
 
 #wrapper {
   margin: auto;
